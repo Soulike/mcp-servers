@@ -10,5 +10,8 @@
   },
   "scripts": {
     "build": "echo \"ts-config is not required to build.\""
+  },
+  "devDependencies": {
+    "@package/eslint-config": "workspace:*"
   }
 }
