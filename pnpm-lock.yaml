@@ -64,6 +64,31 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config
 
+  servers/code-explainer:
+    dependencies:
+      '@modelcontextprotocol/sdk':
+        specifier: ^1.12.1
+        version: 1.12.1
+      tsc-alias:
+        specifier: ^1.8.16
+        version: 1.8.16
+      zod:
+        specifier: ^3.25.56
+        version: 3.25.56
+    devDependencies:
+      '@package/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@package/ts-config':
+        specifier: workspace:*
+        version: link:../../packages/ts-config
+      '@types/node':
+        specifier: ^22.15.30
+        version: 22.15.30
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
   servers/weather:
     dependencies:
       '@modelcontextprotocol/sdk':
