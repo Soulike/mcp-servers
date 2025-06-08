@@ -1,0 +1,19 @@
+{
+  "name": "@package/eslint-config",
+  "description": "ESLint configuration",
+  "private": "true",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo \"eslint-config is not required to build.\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript-eslint": "^8.31.1"
+  }
+}
